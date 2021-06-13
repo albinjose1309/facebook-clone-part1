@@ -1,0 +1,126 @@
+/******************************* global ************************************************/
+* {
+  box-sizing: border-box;
+}
+body {
+  color: #1c1e21;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  /* Helvetica Neue, Helvetica, Arial, sans-serif; */
+}
+
+/******************************* nav-bar proprties *************************************/
+.nav-bar {  
+  width: 100%;
+  display: flex;
+  box-shadow: 10px 0 5px #c0c0c0;
+  padding: 0 1%;
+}
+/******************************* nav-bar proprties left *************************************/
+.left-side {
+  display: flex;
+  align-items: center;
+  width: 30%;
+}
+.logo {
+  padding: 8px 8px 8px 0;
+}
+.search input {
+  background: url("images/searchIcon.png") no-repeat 10px 10px;
+  background-size: 18px 18px;
+  background-color: #f0f0f0;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: none;
+}
+.search input:focus {
+  outline: none;
+}
+/******************************* nav-bar proprties center *************************************/
+.center {
+  width: 40%;
+}
+.nav-bar-list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
+}
+.nav-bar-list li {
+  display: flex;
+  align-items: center;  
+  padding: 0 30px;
+}
+.nav-bar-list a {
+  text-decoration: none;
+  color: #a9a9a9;
+  font-size: 1.4rem;
+}
+.active-tab {
+  border-bottom: 4px solid #1877f2;
+}
+.active-tab a {
+  color: #1877f2;
+}
+/******************************* nav-bar proprties right *************************************/
+.right-side {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 30%;
+}
+.right-side-items {
+  margin: 0 5px;
+}
+.right-side-items a{
+  text-decoration: none;
+  color: #1c1e21;
+}
+.profile-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80px;
+  height: 35px;
+  border-radius: 18px;
+  padding-right: 10px;
+ /*  */
+}
+#profile-icon {
+  display: block;
+  background: url("images/user.png") no-repeat;
+  background-size: 35px 35px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  background-color: 	#D3D3D3;
+}
+.profile-icon:hover {
+  background-color: 	#D3D3D3;
+}
+#create-icon {
+  background: url("images/plusIcon2.png") no-repeat 12px 12px;
+  background-size: 16px 16px;
+}
+#messenger-icon {
+  background: url("images/messengerIcon.png") no-repeat 10px 10px;
+  background-size: 20px 20px;
+}
+#notificaion-icon {
+  background: url("images/notification.png") no-repeat 10px 10px;
+  background-size: 20px 20px;
+}
+#account-icon {
+  background: url("images/dropDownIcon.jpg") no-repeat 12px 10px;
+  background-size: 18px 18px;
+}
+#create-icon, #messenger-icon, #notificaion-icon, #account-icon {
+  background-color: #E8E8E8;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
